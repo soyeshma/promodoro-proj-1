@@ -1,0 +1,59 @@
+body{
+    background-color:rgb(191, 0, 255);
+}
+.timer-content{
+   
+    width: 30%;
+    margin: 0 auto;
+}
+.header-title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+header{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+.timer-container{
+    background-color: rgba(255,255,255,0.1);
+    padding: 15px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.tab-item{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+   
+    padding: 5px;
+}
+.tab-list{
+    text-align: center;
+}
+.tab-item.active{
+    background-color: wheat;
+}
+.tab-item-content{
+    display: none;
+    text-align: center;
+
+
+}
+.tab-item-content.active{
+    display: block;
+}
+.time{
+    font-size: 60px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+button{
+    padding: 10px 30px;
+}
